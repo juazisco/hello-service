@@ -3,7 +3,7 @@ if(process.env.NODE_ENV == "pro"){
   config = {
     server: {
       host: 'localhost',
-      port: process.env.PORT || 50000
+      port: process.env.PORT || 3000
     }
   }
 }
