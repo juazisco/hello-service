@@ -13,7 +13,7 @@ routes.init(server, config)
 
 server.start(function () {
     if (process.env.NODE_ENV != 'test') {
-        console.log('Server running ...',server.info.uri);
+        console.log('Server running now!...',server.info.uri);
     }
 });
 
