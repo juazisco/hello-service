@@ -9,5 +9,5 @@ Basic example using Hapi.js.
 Example to be used for implementing basic pipeline in [Jenkins](http://jenkins-ci.org/).
 
 **Based on:**
-[Continuous Delivery en NodeJS Con Jenkins](https://www.zankuda.com/2015/08/17/continuous-delivery-en-nodejs-con-jenkins-parte-1/).
-[Zankuda - Microservicios con NodeJS](https://www.zankuda.com/2015/08/01/Micro-Servicios-Con-NodeJS/).
+- [Continuous Delivery en NodeJS Con Jenkins](https://www.zankuda.com/2015/08/17/continuous-delivery-en-nodejs-con-jenkins-parte-1/).
+- [Zankuda - Microservicios con NodeJS](https://www.zankuda.com/2015/08/01/Micro-Servicios-Con-NodeJS/).
