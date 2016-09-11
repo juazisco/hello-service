@@ -1,0 +1,29 @@
+{
+  "name": "hello-service",
+  "version": "1.0.0",
+  "description": "It's a basic example using Hapi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js ",
+    "test": "NODE_ENV='test' ./node_modules/lab/bin/lab -c",
+    "test-tap": "./node_modules/lab/bin/lab -c -r tap > reports/testing.tap|| exit 0",
+    "test-clover": "./node_modules/lab/bin/lab -c -r clover > reports/clover.xml|| exit 0 ",
+    "test-checkstyle": "jshint --reporter=checkstyle app.js config.js > reports/checkstyle-result.xml || exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juazisco/hello-service.git"
+  },
+  "author": "joseq@apesol.org.pe",
+  "license": "MIT",
+  "dependencies": {
+    "code": "^3.0.2",
+    "hapi": "^15.0.3",
+    "lab": "^11.0.1",
+    "pmx": "^0.6.4",
+    "rand-token": "^0.2.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.3"
+  }
+}
